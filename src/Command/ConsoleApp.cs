@@ -5,6 +5,7 @@ namespace DesignPatternExamples.Command
 {
     public class ConsoleApp
     {
+        /*
         public static void Main(string[] args)
         {
             var command = args.FirstOrDefault();
@@ -19,5 +20,6 @@ namespace DesignPatternExamples.Command
             commandHandler.ExecuteCommand(command, commandArguments);
             Console.ReadKey();
         }
+        */
     }
 }
