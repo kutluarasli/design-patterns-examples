@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DesignPatternExamples.Flyweight
+namespace DesignPatternExamples.Flyweight.Example1
 {
     public class CustomerRepository
     {

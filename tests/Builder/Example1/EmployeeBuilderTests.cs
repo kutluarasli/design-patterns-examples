@@ -49,5 +49,19 @@ namespace DesignPatternExamples.Tests.Builder.Example1
             Assert.AreEqual(type, result.Type);
             Assert.AreEqual(favoriteMovice, result.FavoriteMovie);
         }
+        
+        [Test]
+        public void justtest()
+        {
+            string myName = "Atul";  
+            string YourName = "Atul";  
+            string name1 = "A" + "t" + "u" + "l";  
+            string name2 = "A" + "tul";  
+  
+            Console.WriteLine(object.ReferenceEquals(myName, YourName));  
+            Console.WriteLine(object.ReferenceEquals(myName, name1));  
+            Console.WriteLine(object.ReferenceEquals(myName, name2)); 
+
+        }
     }
 }

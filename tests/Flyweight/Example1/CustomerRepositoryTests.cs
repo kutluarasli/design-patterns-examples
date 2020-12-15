@@ -1,7 +1,7 @@
-using DesignPatternExamples.Flyweight;
+using DesignPatternExamples.Flyweight.Example1;
 using NUnit.Framework;
 
-namespace DesignPatternExamples.Tests.Flyweight
+namespace DesignPatternExamples.Tests.Flyweight.Example1
 {
     public class CustomerRepositoryTests
     {
